@@ -1,0 +1,8 @@
+includedir=/app/resources/instantclient_12_2/sdk/include
+libdir=/app/resources/instantclient_12_2
+
+Name: oci8
+Description: Oracle Instant Client
+Version: 12.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -lclntsh
